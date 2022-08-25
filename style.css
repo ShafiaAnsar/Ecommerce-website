@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .navbar{
     background-color: white !important;
 }
@@ -20,4 +23,25 @@
 }
 .nav-icons>i{
     margin-right: 10px;
+}
+/* hero_section */
+.hero_img-container>img{
+    width: 350px;
+}
+.hero_section{
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero_text-container>h1{
+    font-size: 3rem;
+    font-weight: 300;
+margin-bottom: 1rem;
+}
+.hero_text-container >h3{
+    color: #59ab6e;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
