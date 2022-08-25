@@ -34,6 +34,7 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    height: 80vh;
 }
 .hero_text-container>h1{
     font-size: 3rem;
@@ -54,6 +55,7 @@ align-items: center;
 margin-top: 5rem;
 margin-bottom: 5rem;
 text-align: center;
+/* height: 70vh; */
 }
 .services-container{
     display: flex;
@@ -88,4 +90,29 @@ text-align: center;
 }
 .service:hover>i{
     color: white;
+}
+/* Our brand */
+.our-brand-section{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    /* height: 70vh; */
+}
+.brands-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 2rem;
+}
+.brands-container>img{
+    width: 150px;
+    filter:grayscale(100%) ;
+    opacity: 0.5;
 }
