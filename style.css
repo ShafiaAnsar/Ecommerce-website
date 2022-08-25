@@ -116,3 +116,40 @@ text-align: center;
     filter:grayscale(100%) ;
     opacity: 0.5;
 }
+/* Categories */
+.categories-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.categories-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.categories-product>h6{
+font-size: 20px;
+margin-bottom: 1rem;
+
+}
+.categories-product>button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #59ab6e;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+.categories-product>img{
+    width:200px;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+
