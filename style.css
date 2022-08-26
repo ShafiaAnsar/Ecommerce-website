@@ -301,3 +301,63 @@ margin-bottom: 1rem;
     padding: 7px 18px;
     margin: 1rem;
 }
+/* Footer */
+.footer-section{
+    background-color: #212934;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.menu-items>i{
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+.menu-items>a{
+text-decoration: none;
+color: #fff;
+font-weight: 400;
+margin-bottom: 0.5rem;
+}
+.menu>h2{
+    margin-bottom: 2rem;
+}
+/* Media queries */
+@media (max-width:795px) {
+    .hero_text-container{
+        text-align: center;
+        margin-top:1rem ;
+    }
+    .brands-container>img{
+         width: 100px;
+         margin: 1rem;
+    }
+    .categories-product{
+        margin: 1rem;
+    }
+    .feature-product{
+        margin: 1rem;
+    }
+}
+@media(max-width:515px){
+    .hero_text-container>p , .about-us-section>p,.categories-section>p,.featured-product-section>p,.our-brand-section>p,.shop-section>p,.contact-section>p{
+        font-size: 14px;
+    }
+}
